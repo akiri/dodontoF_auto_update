@@ -1,12 +1,11 @@
 
-
 ############### 接続情報 ###############
 
 # ホスト（IP・ホスト名）
-host: xxx.xxx.xxx.xxx
+host: users108.lolipop.jp
 
 # 使用プロトコル(ssh,ftp)
-proto: ssh
+proto: ftp
 
 
 ########################################
@@ -39,10 +38,10 @@ sudo_pass: sudo_password
 ######## FTP設定(proto="ftp"時) ########
 
 # FTPユーザ
-ftp_user: ftp_user
+ftp_user: akidon
 
 # FTPパスワード
-ftp_pass: ftp_password
+ftp_pass: hdmxjf
 
 
 ########################################
@@ -67,7 +66,7 @@ ddtf_dir: /var/www/public_html/DodontoF
 ################ その他 ################
 
 # アップデートの方法選択（全自動 1 、コンフィグ手動修正 0 )
-full_auto_flg: 1
+full_auto_flg: 0
 
 ########################################
 
